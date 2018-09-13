@@ -38,7 +38,7 @@ router.post('/', function (req, res) {
         req.session.data['defendents-title'] = ""
         req.session.data['defendents-first-name'] = "Camilla"
         req.session.data['defendents-last-name'] = "Jones"
-        req.session.data['defendents-age'] = "46"
+        req.session.data['defendents-age'] = "48";
         req.session.data['defendents-dob'] = "4 April 1970"
         req.session.data['defendents-dob-short'] = "4 Apr 1970"
         req.session.data['defendents-dob-day'] = "4"
@@ -264,7 +264,7 @@ router.post('/', function (req, res) {
         req.session.data['defendents-title'] = "Mrs"
         req.session.data['defendents-first-name'] = "Mary"
         req.session.data['defendents-last-name'] = "JONES"
-        req.session.data['defendents-age'] = "42"
+        req.session.data['defendents-age'] = "44"
         req.session.data['defendents-dob'] = "11 September 1974"
         req.session.data['defendents-dob-short'] = "11 Sep 1974"
         req.session.data['defendents-dob-day'] = "11"
@@ -320,9 +320,10 @@ router.post('/', function (req, res) {
         req.session.data['claiming-benefits-group'] = ""
         req.session.data['benefits-details'] = ""
         
-        req.session.data['compensation'] = "20"
+        // updated to reflect bandings and no TVL compensation
+        req.session.data['compensation'] = ""
         req.session.data['discharge-compensation'] = "20"
-        req.session.data['discharge-costs'] = "125"
+        req.session.data['discharge-costs'] = "120"
         req.session.data['discharge-victim-surcharge'] = "30"
         
         req.session.data['payToCourtCostsHeader'] = "Check costs and surcharge"

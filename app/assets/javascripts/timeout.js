@@ -113,7 +113,7 @@ function timeoutOff2() {
 /* COUNTDOWN TIMER */
 function countDownTimer(howLong) {
     // Set the date we're counting down to
-    var countDown = (howLong/1000)-1;
+    var countDown = (howLong/2000)-1;
 
     // Update the count down every 1 second
     var x = setInterval(function() {
